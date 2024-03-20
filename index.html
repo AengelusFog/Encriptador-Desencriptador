@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="style.css"> <!-- Cambiamos el enlace al nuevo archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador/Desencriptador</h1>
+        <div class="form-container">
+            <label for="text-input">Texto:</label>
+            <textarea id="text-input" rows="4" cols="50" placeholder="Ingrese su texto aquí"></textarea>
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>
+            <br> <!-- Agregamos un salto de línea -->
+            <input type="text" id="result-text" readonly> <!-- Agregamos el cuadro de texto para mostrar el resultado -->
+            <button id="copy-btn">Copiar</button> <!-- Agregamos el botón de copiar -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

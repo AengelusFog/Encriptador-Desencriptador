@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220520/pngtree-security-network-confidential-encrypt-abstract-photo-image_2225331.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    height: auto; /* Cambiado a auto para adaptarse al contenido */
+    margin: 20px auto; /* Cambiado a 20px en la parte superior e inferior para un mejor espaciado */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-container textarea,
+.form-container button {
+    width: calc(100% - 20px); /* Cambiado a un ancho del 100% menos 20px de relleno */
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container textarea {
+    resize: vertical; /* Cambiado a vertical para permitir el redimensionamiento vertical */
+}
+
+.form-container button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    display: none;
+}
+
+.result-container label {
+    color: #333;
+}
+
+.result-container textarea {
+    background-color: #f3f3f3;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.result-container button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result-container button:hover {
+    background-color: #45a049;
+}
+
+.form-container input[type="text"] {
+    width: calc(100% - 20px); /* Ancho del 100% menos 20px de relleno */
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    color: #333;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Incluir relleno y borde en el ancho */
+}
